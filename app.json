@@ -11,7 +11,9 @@
         {
           "initialOrientation": "ALL"
         }
-      ]
+      ],
+      "expo-asset",
+      "expo-router"
     ]
   }
 }
