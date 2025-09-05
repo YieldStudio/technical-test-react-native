@@ -5,6 +5,7 @@
 L’objectif est simple : évaluer vos compétences en **architecture frontend**, en **gestion de données hors-ligne**, et en **développement frontend** autour d'un projet de galerie d'images.
 
 👉 Ce test est conçu pour être réalisé en **une demi-journée maximum**.
+
 👉 Une fois terminé, merci de le remettre dans un **dépôt GitHub privé** et de nous y inviter.
 
 ## Starter kit & Librairies conseillées
@@ -26,25 +27,13 @@ Pour gagner du temps, un **starter kit** vous est fourni avec :
 
 ## Brief
 
-L'objectif de ce test est de produire rapidement une petite application permettant à l'utilisateur de se créer localement une galerie de photo.
+L'objectif de ce test est de produire rapidement une petite application permettant à l'utilisateur de se créer une galerie de photo tout en communiquant avec une Fake API.
 
-Sur cette application, l'utilisateur pourra donc consulter, ajouter et supprimer des photos.
+Sur cette application, l'utilisateur pourra donc lister, consulter, ajouter et supprimer des photos de sa galerie.
 
-### Screens de l'application à mettre en place
+L'application devra pouvoir être utilisable hors ligne et garder en cache les photos de l'utilisateur. L'ajout et la suppression doivent également être disponibles hors ligne et se synchroniser au moment où le réseau est de nouveau disponible.
 
-- Un screen home avec la galerie de photo déjà enregistrée
-- Un screen de type "card" pour consulter le détail d'une photo
-- Un screen de type "modal" contenant un formulaire pour ajouter une photo
-
-### Détails techniques
-
-- L'application doit permettre d'ajouter ou de supprimer des photos
-  - les photos doivent être enregistrées localement
-  - déplacer toute la logique hors des composants
-- Ajouter un formulaire avec un champ string "Titre" pour le titre de la photo et un bouton permettant à l'utilisateur de sélectionner ou de prendre une photo
-  - la demande de permission doit être faite dans un hook
-  - le hook doit proposer une redirection vers les settings du téléphone si la demande de permission a déjà été refusée
-- L'application doit être utilisable en format portait et paysage
+L'application doit être utilisable en format portait et paysage
 
 ## Livrables attendus
 
