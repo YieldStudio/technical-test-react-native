@@ -11,6 +11,7 @@ L’objectif est simple : évaluer vos compétences en **architecture frontend**
 ## Starter kit & Librairies conseillées
 
 Pour gagner du temps, un **starter kit** vous est fourni avec :
+
 - [Expo Router](https://docs.expo.dev/router/introduction/) pour la navigation
 - [Tailwind](https://tailwindcss.com/) et [twrnc](https://github.com/jaredh159/tailwind-react-native-classnames) pour le style
 - [React Hook Form](https://react-hook-form.com/) pour les formulaires
@@ -24,6 +25,8 @@ Pour gagner du temps, un **starter kit** vous est fourni avec :
 - [Action Sheet](https://github.com/expo/react-native-action-sheet) pour les actions contextuelles
 
 👉 Vous êtes libre d’utiliser **les librairies de votre choix**, tant que l’architecture et les fonctionnalités demandées sont respectées.
+
+Le Starter kit inclut également 3 endpoints GET, POST et DELETE permettant de lister, créer et supprimer des photos. Ils sont d'ores et déjà implémentés et utilisables avec le hook React Query associé. Il vous faudra ajouter vous-même un endpoint de synchronisation des données à la fin du test.
 
 ## Brief
 
@@ -60,12 +63,14 @@ L'application doit être utilisable en format portait et paysage
    git clone https://github.com/YieldStudio/technical-test-react-native.git
    cd technical-test-react-native
    ```
+
 2. Lancer le projet :
 
    ```bash
    yarn install
    yarn start
    ```
+
 3. Commencer à implémenter les fonctionnalités demandées.
 4. Créer un **dépôt privé** sur GitHub depuis votre compte.
 5. Changer l’origine Git pour pointer vers votre dépôt privé :
@@ -75,10 +80,12 @@ L'application doit être utilisable en format portait et paysage
    git remote add origin git@github.com:<votre-compte>/<votre-repo-prive>.git
 
    ```
+
 6. Pousser votre travail :
 
    ```bash
    git push -u origin main
 
    ```
+
 7. Invitez-nous en tant que collaborateurs sur ce dépôt privé (vous recevrez nos identifiants GitHub par email).

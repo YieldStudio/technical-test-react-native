@@ -1,0 +1,13 @@
+node_modules
+.eslintrc.js
+.prettierrc.js
+.expo
+.expo-shared
+.vscode
+.idea
+.ook
+dist
+ios
+android
+.maestro
+package.json
