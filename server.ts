@@ -27,7 +27,8 @@ createServer({
 
     this.post('/photos', (schema, request) => {
       const attrs = JSON.parse(request.requestBody);
-      return schema.db.photos.insert(attrs);
+      const id = `photo-${Date.now()}`;
+      return schema.db.photos.insert({ ...attrs, id });
     });
 
     this.delete('/photos/:id', (schema, request) => {

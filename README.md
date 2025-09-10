@@ -34,9 +34,13 @@ L'objectif de ce test est de produire rapidement une petite application permetta
 
 Sur cette application, l'utilisateur pourra donc lister, consulter, ajouter et supprimer des photos de sa galerie.
 
+L'ajout de photo se fait via un formulaire simple, un titre et une photo provenant de l'appareil photo ou la galerie d'image.
+
 L'application devra pouvoir être utilisable hors ligne et garder en cache les photos de l'utilisateur. L'ajout et la suppression doivent également être disponibles hors ligne et se synchroniser au moment où le réseau est de nouveau disponible.
 
 L'application doit être utilisable en format portait et paysage
+
+PS : il n'est pas attendu d'implémenter un système d'authentification
 
 ## Livrables attendus
 

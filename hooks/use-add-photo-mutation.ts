@@ -4,7 +4,6 @@ import { PHOTOS_QUERY_KEY } from './use-photos-query';
 import { queryClient } from '../utils/query-client';
 
 export type AddPhotoInput = {
-  id: string;
   title: string;
   url: string;
 };
