@@ -9,12 +9,11 @@
       [
         "expo-screen-orientation",
         {
-          "initialOrientation": "ALL"
+          "initialOrientation": "PORTRAIT"
         }
       ],
       "expo-asset",
-      "expo-router",
-      "expo-secure-store"
+      "expo-router"
     ]
   }
 }

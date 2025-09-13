@@ -1,6 +1,4 @@
 import { QueryClient } from '@tanstack/react-query';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import { createAsyncStoragePersister } from '@tanstack/query-async-storage-persister';
 import { HTTP_STATUS, isServerError } from '../constants/http-status';
 import { AxiosError } from 'axios';
 
@@ -40,9 +38,4 @@ export const queryClient = new QueryClient({
       },
     },
   },
-});
-
-export const queryClientPersister = createAsyncStoragePersister({
-  storage: AsyncStorage,
-  throttleTime: 3000,
 });
