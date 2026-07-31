@@ -86,6 +86,8 @@ Chaque requête doit inclure le header suivant : `Authorization: Bearer <token>`
 - Commits progressifs.
 - Invitez-nous en tant que collaborateurs sur le dépôt privé.
 
+`FEEDBACK.md` contient quelques questions courtes : prévois ~15 min en fin de test pour y répondre. Ce temps vient **en plus** des 3 h, il n'est pas censé rogner sur le code. Quelques lignes par question suffisent — on cherche ton raisonnement, pas un rapport.
+
 ## Critères d'évaluation
 
 L'IA est autorisée et nous nous attendons à ce que tu l'utilises. Elle produira sans difficulté des écrans qui fonctionnent : ce n'est donc pas là que se joue l'évaluation. Nous attachons une attention particulière à la **structure du code**, à la **robustesse** (garde-fous, comportement dans les cas limites) et à l'**UX**.
