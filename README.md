@@ -14,6 +14,8 @@ Nous mettons à ta disposition une API de gestion de stock pour laquelle tu disp
 
 ⚠️ Il n'est pas éliminatoire de ne pas terminer le test ; l'important est d'aller à ton rythme et de maintenir un code propre et maintenable tout au long du test.
 
+💬 Le brief est volontairement concis et laisse des zones d'interprétation. Si un point te semble ambigu ou contradictoire, **écris-nous** : poser une bonne question est un signal positif, pas un aveu de faiblesse. Si tu préfères trancher seul, documente ton arbitrage dans `FEEDBACK.md`.
+
 ### Prérequis
 - Node.js >= 18
 - Expo CLI
@@ -58,8 +60,8 @@ L'objectif de ce test est de produire une petite application permettant la gesti
   - Champs : nom, catégorie, quantité initiale (cacher à l'édition), seuil minimum, image.
   - Validation des champs, gestion des erreurs.
 
-- Alerte de seuil : lorsque le seuil minimum d'un produit est atteint, déclancher une notification local.
- 
+- Alerte de seuil : lorsque le seuil minimum d'un produit est atteint, déclencher une notification locale.
+
 PS : il n'est pas attendu d'implémenter un système d'authentification
 
 ## API
@@ -80,14 +82,20 @@ Chaque requête doit inclure le header suivant : `Authorization: Bearer <token>`
 - Repo GitHub privé contenant :
   - [FEEDBACK.md](http://FEEDBACK.md) (explications de l'architecture, des choix techniques, avis sur le test et commentaires).
   - Les modifications effectuées sur le code.
+- Dans `FEEDBACK.md`, quelques lignes sur ton usage de l'IA : quels outils, et surtout **ce que tu as rejeté et pourquoi**. L'IA est autorisée et attendue ; ce qui nous intéresse est ton jugement sur ce qu'elle produit.
 - Commits progressifs.
 - Invitez-nous en tant que collaborateurs sur le dépôt privé.
 
 ## Critères d'évaluation
 
+L'IA est autorisée et nous nous attendons à ce que tu l'utilises. Elle produira sans difficulté des écrans qui fonctionnent : ce n'est donc pas là que se joue l'évaluation. Nous attachons une attention particulière à la **structure du code**, à la **robustesse** (garde-fous, comportement dans les cas limites) et à l'**UX**.
+
+Sur l'UX, une précision : nous parlons du comportement, pas de l'esthétique. Le rendu visuel est le métier de nos designers, et reste largement subjectif — inutile de passer une heure à reproduire la maquette au pixel. Ce qui nous intéresse, c'est ce que vit l'utilisateur : ce qui se passe pendant un chargement, quand une action échoue, quand une liste est vide, quand le réseau est mauvais.
+
 - Qualité et structure du code React Native.
 - Gestion correcte des appels API (erreurs, loading, retry éventuel).
 - Respect des règles métier.
+- Robustesse : edge cases, états intermédiaires et garde-fous, pas seulement le happy path.
 - Cohérence UX et finitions (insets, haptic, ...).
 - État vide / skeleton loaders soignés.
 - Bonus : une petite animation, librairie i18n, tests unitaires ou d’intégration (Jest/RTL).
