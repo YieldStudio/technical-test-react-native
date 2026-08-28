@@ -10,7 +10,9 @@ Nous mettons à ta disposition une API de gestion de stock pour laquelle tu disp
 
 👉 Ce test est conçu pour être réalisé en **3 heures maximum**.
 
-👉 Une fois terminé, merci de le remettre dans un **dépôt GitHub privé** et de nous y inviter.
+👉 Tu as **7 jours** à partir du mail d'instructions pour nous partager ton rendu. Le délai est là pour que tu t'organises comme tu le souhaites (soirées, week-end), pas pour y passer une semaine.
+
+👉 Une fois terminé, merci de le remettre dans un **dépôt GitHub privé** et de nous y inviter (un accès en lecture suffit).
 
 ⚠️ Il n'est pas éliminatoire de ne pas terminer le test ; l'important est d'aller à ton rythme et de maintenir un code propre et maintenable tout au long du test.
 
@@ -84,9 +86,23 @@ Chaque requête doit inclure le header suivant : `Authorization: Bearer <token>`
   - Les modifications effectuées sur le code.
 - Dans `FEEDBACK.md`, quelques lignes sur ton usage de l'IA : quels outils, et surtout **ce que tu as rejeté et pourquoi**. L'IA est autorisée et attendue ; ce qui nous intéresse est ton jugement sur ce qu'elle produit.
 - Commits progressifs.
-- Invitez-nous en tant que collaborateurs sur le dépôt privé.
+- Invitez-nous en tant que collaborateurs sur le dépôt privé (accès en lecture suffisant).
 
 `FEEDBACK.md` contient quelques questions courtes : prévois ~15 min en fin de test pour y répondre. Ce temps vient **en plus** des 3 h, il n'est pas censé rogner sur le code. Quelques lignes par question suffisent — on cherche ton raisonnement, pas un rapport.
+
+## Ce qui se passe après le rendu : l'atelier technique (60 min)
+
+Le test n'est pas noté en silo : il sert de support à un **atelier technique d'une heure**, en visio, écran partagé, **c'est toi qui pilotes**. Concrètement :
+
+- **0 → 5 min** : ce qui est fini, ce que tu as laissé de côté, et pourquoi cet arbitrage.
+- **5 → 40 min** : deep dive dans ton code et lecture de ton `FEEDBACK.md`. On prend ce que tu as écrit et on va le vérifier dans le code (robustesse, cas limites, erreurs API…).
+- **40 → 55 min** : un cas client à chaud, sans lien avec le test.
+- **55 → 60 min** : tes questions.
+
+Deux conséquences pratiques :
+
+1. **N'écris dans `FEEDBACK.md` que ce que tu peux montrer.** Une affirmation du type « les erreurs API sont gérées » sera suivie d'un « montre-moi où ». Mieux vaut écrire « pas géré, faute de temps » que d'annoncer plus que ce que le code fait.
+2. **Tu dois pouvoir expliquer chaque ligne que tu rends**, y compris celles écrites par une IA. Du code que tu ne sais pas défendre pèse plus lourd qu'une fonctionnalité manquante.
 
 ## Critères d'évaluation
 
@@ -125,4 +141,4 @@ Sur l'UX, une précision : nous parlons du comportement, pas de l'esthétique. L
    ```bash
    git push -u origin main
    ```
-7. Invitez-nous en tant que collaborateurs sur ce dépôt privé (vous recevrez nos identifiants GitHub par email).
+7. Invitez-nous en tant que collaborateurs sur ce dépôt privé (accès en lecture suffisant). Réponds au mail d'instructions pour obtenir les comptes GitHub à inviter.
